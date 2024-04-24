@@ -1,0 +1,94 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+nav{
+    width: 475px;
+}
+
+.profilePhoto{
+    position: relative;
+    margin-bottom: 12vh;
+}
+
+img.profilePhotoImage{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 110%;
+    object-fit: cover;
+    z-index: 2; 
+}
+
+.profileName{
+    position: absolute;
+    left: 15%;
+    bottom: -15%;
+    color: white;
+    width: 70%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 5.8rem;
+}
+
+
+.backgroundDiv{
+    z-index: 1;
+    height: 50vh;
+    background-color: aqua;
+    transform: translateY(-145px) skewY(-30deg);
+}
+
+
+
+h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    /* border: 1px solid black; */
+    padding-top: 5vh;
+}
+
+.aboutMeHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding-bottom: 3vh;
+    /* border: 1px solid black; */
+}
+
+.profileLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+   
+    /* border: 1px solid black; */
+}
+
+i{
+    font-size: 2rem;
+}
+
+.aboutMePara{
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    color: grey;
+    padding: 0  5%;
+    padding-bottom: 3%;
+}
