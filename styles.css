@@ -5,11 +5,13 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
-    width: 100vw;
+    max-width: 500px;
+    border: 1px solid black;
 }
 
 nav{
     /* width: 475px; */
+    /* width: 100vw; */
 }
 
 .profilePhoto{
@@ -40,7 +42,7 @@ img.profilePhotoImage{
     align-items: center;
     text-align: left;
     /* font-size: 4.5rem; */
-    font-size: 10rem;
+    font-size: 4.5rem;
 }
 
 
@@ -55,7 +57,7 @@ img.profilePhotoImage{
 
 h1{
     /* font-size: 3rem; */
-    font-size: 7rem;
+    font-size: 3rem;
     font-weight: 100;
     text-align: center;
 }
@@ -94,16 +96,14 @@ i.Icons{
 }
 
 i{
-    /* font-size: 1.7rem; */
-    font-size: 3.3rem;
+    font-size: 2rem;
+
 }
 
 .aboutMePara{
-    /* border: 1px solid black; */
-    
-    /* font-size: 1.7rem; */
+    border: 1px solid black;
 
-    font-size: 4rem;
+    font-size: 1.7rem;
     color: grey;
     padding: 10vw;
     padding-top: 0;
@@ -127,7 +127,7 @@ main{
     box-shadow: 5px 5px 5px grey;
     margin-top: 7vh;
 
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 
 .projectScreenshot{
@@ -148,9 +148,8 @@ main{
 
 
 .projectDescription{
-    /* font-size: 1.2rem; */
+    font-size: 1.2rem;
 
-    font-size: 3rem;
 }
 
 .contactInfo{
@@ -177,6 +176,6 @@ img.footerProfilePhotoImage{
 }
 
 .contactInfoSpan{
-    /* font-size: 1.5rem; */
-    font-size: 4rem;
+    font-size: 1.5rem;
+
 }
