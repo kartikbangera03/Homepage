@@ -5,10 +5,11 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
 nav{
-    width: 475px;
+    /* width: 475px; */
 }
 
 .profilePhoto{
@@ -18,9 +19,9 @@ nav{
 
 img.profilePhotoImage{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 10%;
-    width: 80%;
+    width: 80vw;
     height: 110%;
     object-fit: cover;
     z-index: 2; 
@@ -31,13 +32,15 @@ img.profilePhotoImage{
     left: 15%;
     bottom: -15%;
     color: white;
-    width: 70%;
+    /* width: 70%; */
+
     z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
+    font-size: 10rem;
 }
 
 
@@ -45,13 +48,14 @@ img.profilePhotoImage{
     z-index: 1;
     height: 50vh;
     background-color: #2596be;
-    transform: translateY(-145px) skewY(-30deg);
+    transform: translateY(-320px) skewY(-30deg);
 }
 
 
 
 h1{
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 7rem;
     font-weight: 100;
     text-align: center;
 }
@@ -61,7 +65,8 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-top: 5vh;
+    margin-top: 60px;
+    width: 100vw;
 }
 
 .aboutMeHeading , .workTitleHeading{
@@ -85,18 +90,22 @@ h1{
 }
 
 i.Icons{
-    font-size: 0.2rem;
+    font-size: 2rem;
 }
 
 i{
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
+    font-size: 3.3rem;
 }
 
 .aboutMePara{
     /* border: 1px solid black; */
-    font-size: 1.7rem;
+    
+    /* font-size: 1.7rem; */
+
+    font-size: 4rem;
     color: grey;
-    padding: 5vw;
+    padding: 10vw;
     padding-top: 0;
 }
 
@@ -107,19 +116,22 @@ main{
 .topLayer{
     display: flex;
     justify-content: space-between;
+
 }
 
 .projectCard{
-    height: 400px ;
+    height: auto ;
     width: 80vw;
     /* border: 1px solid black; */
     margin-bottom: 10%;
     box-shadow: 5px 5px 5px grey;
     margin-top: 7vh;
+
+    font-size: 2.5rem;
 }
 
 .projectScreenshot{
-    height: 60%;
+    height: 20vh;
     background-color: violet;
 }
 
@@ -136,13 +148,16 @@ main{
 
 
 .projectDescription{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+
+    font-size: 3rem;
 }
 
 .contactInfo{
     background-color: #2596be;
     color : white;
-    margin-top: 10vh;
+    margin-top: 50px;
+    width: 100vw;
 
 }
 
@@ -156,11 +171,12 @@ main{
 }
 
 img.footerProfilePhotoImage{
-    width: 99vw;
+    width: 100vw;
     height: 60vh;
     object-fit: cover;
 }
 
 .contactInfoSpan{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 4rem;
 }
