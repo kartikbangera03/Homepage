@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 nav{
@@ -43,15 +44,16 @@ img.profilePhotoImage{
 .backgroundDiv{
     z-index: 1;
     height: 50vh;
-    background-color: aqua;
+    background-color: #2596be;
     transform: translateY(-145px) skewY(-30deg);
 }
 
 
 
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 100;
+    text-align: center;
 }
 
 
@@ -63,7 +65,7 @@ h1{
     padding-top: 5vh;
 }
 
-.aboutMeHeading{
+.aboutMeHeading , .workTitleHeading{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,8 +89,70 @@ i{
 
 .aboutMePara{
     /* border: 1px solid black; */
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: grey;
-    padding: 0  5%;
-    padding-bottom: 3%;
+    padding: 3%;
+    /* padding-bottom: 3%; */
+}
+
+main{
+    padding-top: 20%;
+}
+
+.topLayer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectCard{
+    height: 400px ;
+    width: 70vw;
+    /* border: 1px solid black; */
+    margin-bottom: 10%;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 7vh;
+}
+
+.projectScreenshot{
+    height: 60%;
+    background-color: violet;
+}
+
+.projectInfo{
+    padding: 5%;
+}
+
+.projectLinks{
+    display: flex;
+    font-size: 0.5rem;
+    align-items: center;
+    gap: 5%;
+}
+
+.contactInfo{
+    background-color: #2596be;
+    color : white;
+    margin-top: 10vh;
+}
+
+.contactHeading{
+    display:  flex;
+    flex-direction: column;
+    padding: 5vw;
+    align-items: left;
+    gap: 20px;
+    
+}
+
+img.footerProfilePhotoImage{
+    /* position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 110%;
+    object-fit: cover;
+    z-index: 2;  */
+    width: 99vw;
+    height: 60vh;
+    object-fit: cover;
 }
