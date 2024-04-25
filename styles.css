@@ -5,8 +5,8 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
-    max-width: 500px;
-    border: 1px solid black;
+    width: 100vw;
+    /* border: 1px solid black; */
 }
 
 nav{
@@ -101,7 +101,6 @@ i{
 }
 
 .aboutMePara{
-    border: 1px solid black;
 
     font-size: 1.7rem;
     color: grey;
@@ -176,6 +175,6 @@ img.footerProfilePhotoImage{
 }
 
 .contactInfoSpan{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
