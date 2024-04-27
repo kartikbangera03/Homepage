@@ -1,5 +1,5 @@
 :root{
-    --desktop-width:60vw;
+    --desktop-width:65vw;
 }
 
 
@@ -49,17 +49,21 @@ img.profilePhotoImage{
 
 
 
-@media (max-width: 1440px){
+/* @media (max-width : 1200px){ */
+
+
+
     /* *{
         border: 1px solid black;
     } */
 
     h1{
-        font-size: 2rem;
+        font-size: 8rem;
         font-weight: 100;
         margin-bottom: 0px;
         /* text-align: center; */
     }
+
 
     body{
         justify-content: center;
@@ -110,10 +114,10 @@ img.profilePhotoImage{
     .profileName{
         width: 90%;
         /* height: 100%; */
-        font-size: 2.8rem;
+        font-size: 15rem;
         /* border: 1px solid red; */
         position: relative;
-        left: 13%;
+        left: 10%;
         bottom: 22%;
         z-index: 5;
         color:white;
@@ -122,13 +126,13 @@ img.profilePhotoImage{
     }
   
     .aboutMe{
-        width: 50%;
-        padding: 15px ;
-        height: 80%;
+        width: 55%;
+        padding: 1vw ;
+        height: 85%;
         position: relative;
-        top: 15%;
-        right:3.8%;
-        font-size: 0.88rem;
+        top: 12%;
+        right:2.5%;
+        font-size: 5rem;
         z-index: 2;
         background-color: whitesmoke;
         
@@ -136,7 +140,7 @@ img.profilePhotoImage{
         flex-direction: column;
         justify-content: space-around;
         gap: 15px;
-        box-shadow: 3px 3px 8px 2px  lightgray;
+        box-shadow: 5px 5px 15px 10px  lightgray;
     }
 
     img.profilePhotoImage{
@@ -144,7 +148,7 @@ img.profilePhotoImage{
         height: 100%;
         position: relative;
         /* top: 5%; */
-        left: 13%;
+        left: 10%;
         /* bottom: 30%; */
         
         /* margin-top: 10vh; */
@@ -152,7 +156,7 @@ img.profilePhotoImage{
 
     .profileLinks{
         justify-content: end;
-        gap: 15px;
+        gap: 2vw;
     }
 
  
@@ -178,12 +182,10 @@ img.profilePhotoImage{
     }
     .projectCard{
         height: auto ;
-        width: 250px;
-        margin-top: 5vh;
-        box-shadow: 5px 5px 5px grey;
+        width: calc(var(--desktop-width)*0.3);
+        box-shadow: 5px 5px 15px 10px lightgrey;
         margin-top: 7vh;
-        
-        font-size: 1rem;
+        font-size: 4rem;
     }
 
     .projectInfo{
@@ -219,18 +221,19 @@ img.profilePhotoImage{
     .contactHeading{
         display:  flex;
         flex-direction: column;
-        padding: 20px;
         justify-content: center;
         align-items: left;
-        gap: 20px;
-
+        gap: 1vw;
+        padding: 2vw;
+        
+        font-size: 5rem;
         position: relative;
-        width: 30%;
+        width: 40%;
         /* border: 1px solid blue; */
     }
 
     .footerProfilePhoto{
-        width: 70%;
+        width: 60%;
         /* border: 1px solid purple; */
     }
 
@@ -246,9 +249,9 @@ img.profilePhotoImage{
     }
 
     
-}
 
-@media (max-width: 500px){
+
+@media (max-width : 500px){
 
 
     body{
@@ -308,7 +311,7 @@ img.profilePhotoImage{
         font-size: 3.5rem;
         position: relative;
         left: 0%;
-        bottom: 25%;
+        bottom: 30%;
         z-index: 5;
         color:white;
         padding-left: 5%;   
